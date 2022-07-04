@@ -1,0 +1,170 @@
+body {
+  background: #f9f333;
+  font-family: 'Ubuntu', 'Times New Roman', Times, serif;
+}
+
+header,
+main,
+footer {
+  min-width: 887px;
+}
+
+header .container,
+main .container,
+footer .container {
+  max-width: 887px;
+  margin: auto;
+}
+
+h2,
+h4,
+h6 {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  padding: 30px 0 30px 0;
+  background: white;
+  overflow: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+header h1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-style: italic;
+  font-size: 2.5em;
+  color: blue;
+  float: left;
+  width: 470px;
+}
+
+header nav {
+  float: right;
+  width: 385px;
+}
+
+nav a {
+  color: red;
+}
+
+a {
+  color: red;
+  text-decoration: underline;
+  font-weight: italic;
+  text-decoration-thickness: 10%;
+}
+
+main {
+  background: white;
+  border-radius: 0 5px 5px 5px;
+  ;
+  padding: 40px;
+}
+
+
+
+main .content {
+  padding: 30px 10px 30px 10px;
+  border-radius: 0 5px 5px 5px;
+  background: #eee;
+}
+
+.tabs a span {
+  border-radius: 5px 5px 0 0;
+  display: inline-block;
+  width: 100px;
+  margin-right: 10px;
+  text-align: center;
+  background: #ddd;
+  padding: 5px;
+}
+
+.tabs a span.active {
+  background: #eee;
+}
+
+h3 {
+  font-family: 'Ubuntu', sans-serif;
+  border-radius: 5px;
+  color: #999;
+  ;
+  background: #ddd;
+  padding: 5px;
+  margin: 20px 0 10px 0;
+}
+
+h3:first-child {
+  margin-top: 0;
+}
+
+main .content li {
+  border-radius: 5px;
+  padding: 3px;
+  background: #eff;
+  margin: 0 0 10px 0;
+}
+
+main .content button {
+  font-weight: bold;
+  padding: 0 3px 0 3px;
+  border-radius: 5px;
+  background: #ccc;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 1.3em;
+}
+
+main .content p {
+  color: black;
+  margin: 30px 0 0 0;
+}
+
+main .content p:first-child {
+  margin-top: 10px;
+}
+
+main .content input {
+  font-size: 1.5em;
+}
+
+footer {
+  border-top: 1px solid #ddd;
+  padding: 40px 0 20px 0;
+}
+
+footer .contact {
+  float: left;
+  width: 570px;
+}
+
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+footer .contact p:nth-child(2) {
+  color: black;
+  font-style: italic;
+}
+
+footer .sitemap {
+  float: right;
+  width: 285px;
+}
+
+footer ul {
+  width: 230px;
+}
+
+li {
+  list-style: none;
+}
+
+footer .sitemap .left {
+  float: left;
+}
+
+footer .sitemap .right {
+  float: right;
+}
